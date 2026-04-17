@@ -142,18 +142,15 @@ const HomePage = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               whileHover={{ scale: 0.98 }}
-              className="md:col-span-2 bg-[#141414] rounded-[2rem] p-10 relative overflow-hidden group border border-white/5"
+              className="md:col-span-2 bg-[#141414] rounded-[2rem] bg-[url('/images/image_maison3.png')] p-10 relative bg-center bg-no-repeat bg-cover  overflow-hidden group border border-white/5"
             >
-              <div className="absolute top-0 right-0 w-2/3 h-full opacity-30 group-hover:opacity-60 transition-opacity duration-700">
-                <img src="/images/image_3d.jpeg" alt="Plans" className="w-full h-full object-cover mix-blend-screen" />
-                {/* <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1931" alt="Plans" className="w-full h-full object-cover mix-blend-screen" /> */}
-              </div>
+             
               <div className="relative z-10 h-full flex flex-col justify-end">
                 <div className="w-14 h-14 rounded-full bg-white/5 flex items-center justify-center mb-6 backdrop-blur-md">
                    <PenTool className="w-6 h-6 text-[#FF8C00]" />
                 </div>
                 <h3 className="text-2xl md:text-3xl font-bold mb-3">Conception 2D & 3D</h3>
-                <p className="text-gray-400 text-base md:text-lg max-w-md leading-relaxed hidden sm:block">Des plans d'une précision millimétrique et des modélisations 3D immersives pour visualiser votre projet avant même qu'il ne sorte de terre.</p>
+                <p className="text-white text-base md:text-lg max-w-md leading-relaxed hidden sm:block">Des plans d'une précision millimétrique et des modélisations 3D immersives pour visualiser votre projet avant même qu'il ne sorte de terre.</p>
               </div>
             </motion.div>
 
@@ -201,7 +198,7 @@ const HomePage = () => {
               whileHover={{ scale: 0.98 }}
               className="md:col-span-2 bg-white rounded-[2rem] p-10 relative overflow-hidden text-black min-h-[350px]"
             >
-              <img src="/images/maison_3d.jpg" alt="Construction" className="absolute inset-0 w-full h-full object-cover" />
+              <img src="/images/image_maison2.png" alt="Construction" className="absolute inset-0 w-full h-full object-cover" />
               {/* <img src="https://images.unsplash.com/photo-1541888081622-c3f21876d299?q=80&w=2070" alt="Construction" className="absolute inset-0 w-full h-full object-cover" /> */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
               <div className="relative z-10 h-full flex flex-col justify-end">
